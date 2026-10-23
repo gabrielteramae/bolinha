@@ -1,4 +1,4 @@
-import type { GameEvent } from "./sim.ts";
+import type { GameEvent } from "./types.ts";
 
 let ctx: AudioContext | null = null;
 let master: GainNode | null = null;
